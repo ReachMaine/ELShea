@@ -17,8 +17,15 @@ Version: 1.2
 
 }
 /*  header stuff - here */
-
-/*** styling of content */
+body.header-transparent.semi #header .semi-transparent {
+	background-color: rgba(42,76,117,0.8)!important;
+}
+// slider revolution
+.rev_slider {
+	.tp-caption {
+		//text-shadow: 2px 2px 3px black;
+	}
+}
 /*** styling of content */
 #content.right-sidebar-page {
 	padding-top: 45px;  // small at mobile in media

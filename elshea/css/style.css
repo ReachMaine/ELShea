@@ -73,7 +73,9 @@ input[type="submit"] {
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
-/*** styling of content */
+body.header-transparent.semi #header .semi-transparent {
+  background-color: rgba(42, 76, 117, 0.8) !important; }
+
 /*** styling of content */
 #content.right-sidebar-page {
   padding-top: 45px;
