@@ -97,6 +97,18 @@ body.header-transparent.semi #header .semi-transparent {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (max-width: 1279px) {
+  .els-background-section .tatsu-section-pad {
+    padding-left: 20px !important;
+    padding-right: 20px !important; }
+
+  .els-background-blocks.tatsu-HyrYYgVfQ.tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad {
+    padding-left: 30px;
+    padding-right: 30px; }
+
+  .tatsu-medium-gutter > .tatsu-row > .tatsu-column.els-background-block-col {
+    padding-left: 15px;
+    padding-right: 15px; } }
 @media only screen and (max-width: 960px) {
   #header #header-controls-right .mobile-nav-controller {
     padding-top: 15px; } }
