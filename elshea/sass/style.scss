@@ -31,6 +31,25 @@ body.header-transparent.semi #header .semi-transparent {
 	padding-top: 45px;  // small at mobile in media
 	padding-bottom: 45px;
 }
+
+.tatsu-menu-widget-wrap.reach-menu-pipes {
+	.tatsu-menu-widget {
+		ul {
+			li {
+				margin-right: 0px;
+				a {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+			}
+			li:not(:last-child):after {
+				content:"|"
+			}
+		}
+	}
+
+
+}
 /** sidebar
 
 /** footer **/
