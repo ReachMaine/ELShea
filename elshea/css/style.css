@@ -71,6 +71,10 @@ input[type="submit"] {
   font-weight: bold;
   cursor: pointer; }
 
+.tatsu-button-wrap.els-skinny-button a {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 body.header-transparent.semi #header .semi-transparent {
