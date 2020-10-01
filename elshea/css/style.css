@@ -85,6 +85,14 @@ body.header-transparent.semi #header .semi-transparent {
   padding-top: 45px;
   padding-bottom: 45px; }
 
+.tatsu-menu-widget-wrap.reach-menu-pipes .tatsu-menu-widget ul li {
+  margin-right: 0px; }
+  .tatsu-menu-widget-wrap.reach-menu-pipes .tatsu-menu-widget ul li a {
+    padding-left: 10px;
+    padding-right: 10px; }
+.tatsu-menu-widget-wrap.reach-menu-pipes .tatsu-menu-widget ul li:not(:last-child):after {
+  content: "|"; }
+
 /** sidebar
 
 /** footer **/
