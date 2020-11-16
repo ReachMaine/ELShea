@@ -41,6 +41,10 @@
         padding-top: 15px; // vertically center hamberger
       }
     }
+    #header-controls-left {
+      display: block;
+    }
+
   }
 
 }
@@ -67,5 +71,16 @@
       }
 }
 
+@media only screen and (max-width: 480px) {
+  #header-wrap {
+    #header-controls-left {
+      .els-site-name {
+    	   .els-tagline {
+           display: block;
+        }
+      }
+    }
+  }
+}
 @media only screen and (min-width: 480px) and (max-width: 767px) { // mobile 480
 }
