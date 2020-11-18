@@ -6,6 +6,24 @@ Template: oshin
 Version: 1.2
 */
 @import url("../oshin/style.css");
+/* basic css stuff */
+.elshea-services-list .tatsu-text-inner {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .elshea-services-list .tatsu-text-inner ul li {
+    font-size: 16px;
+    line-height: 1.1em; }
+  .elshea-services-list .tatsu-text-inner p {
+    font-size: 16px;
+    line-height: 1.1em;
+    margin-bottom: 15px; }
+
+.elshea-service-title h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 40px;
+  line-height: 1.1em; }
+
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* ----------- Typography ------------------------------- */
