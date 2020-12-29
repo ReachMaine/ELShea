@@ -1,0 +1,35 @@
+/* styling for gravity forms */
+.gform_wrapper {
+	 .gform_body {
+		.gfield.hide-label label {
+			display: none;
+		}
+    .gfield {
+      .ginput_container_textarea {
+        textarea {
+          background-color: white;
+        }
+      }
+    }
+	}
+	.gform_footer {
+		display: flex;
+		justify-content: flex-end;
+		input[type=submit] { //  Make submit look like buttons on the site.
+
+			color: white;
+		  border: 3px solid $els-dark-green;
+	   // padding: 6px 20px;
+	   // font-size: 20px!important;
+		  border-radius: 0px;
+	    text-align: center;
+	    cursor: pointer;
+			background-color: $els-dark-green;
+			//line-height: 1.7em;
+			}
+			input[type=submit]:hover {
+				background-color:  $els-ltr-green;
+				border: 3px solid $els-dark-green;
+			}
+  } // gform footer
+} // gform wrapper

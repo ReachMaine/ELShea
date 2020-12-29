@@ -93,6 +93,25 @@ input[type="submit"] {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+/* styling for gravity forms */
+.gform_wrapper .gform_body .gfield.hide-label label {
+  display: none; }
+.gform_wrapper .gform_body .gfield .ginput_container_textarea textarea {
+  background-color: white; }
+.gform_wrapper .gform_footer {
+  display: flex;
+  justify-content: flex-end; }
+  .gform_wrapper .gform_footer input[type=submit] {
+    color: white;
+    border: 3px solid #5b7755;
+    border-radius: 0px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #5b7755; }
+  .gform_wrapper .gform_footer input[type=submit]:hover {
+    background-color: #a2b58f;
+    border: 3px solid #5b7755; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 body.header-transparent.semi #header .semi-transparent {
